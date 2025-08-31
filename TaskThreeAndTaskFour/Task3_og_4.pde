@@ -1,49 +1,65 @@
+//3
 String address;
-int wholeNumbers;
-int divide;
-String hey;
+int sumOfNumbers;
+float division;
+String message;
 
+//4.a
 void setup (){
- address = "copenhagen";
- wholeNumbers = 50*50;
- divide = 10/2;
- hey = "Lets go";
+ //4.B
+ address = "Malmøgade 2 1tv, 2100";
+ sumOfNumbers = 50+50;
+ division = 10/2;
+ message = "Let's go";
  
-println("adresse:" + address);
-println("More numbers:" + wholeNumbers);
-println("Two Numbers:" + divide);
-println("Positive:" + hey);
+ //4.C
+ println("Address: " + address);
+ println("Sum: " + sumOfNumbers);
+ println("Division: " + division);
+ println("Gretting: " + message);
 
-address = "sallingvej";
-address += "mozaartsvej";
-wholeNumbers = 100*100;
-wholeNumbers += 200*200;
-divide = 10/2;
-divide +=20/2;
-hey = "hello";
-hey += "yello";
+// 4.D
+address = "sallingvej 68";
+sumOfNumbers = 200+200;
+division = 50/10;
+message = "Her bor Emil";
+ 
+println("Address: " + address);
+println("Sum: " + sumOfNumbers);
+println("Division: " + division);
+println("Gretting: " + message);
 
-println("adresse:" + address);
-println("More numbers:" + wholeNumbers);
-println("Two Numbers:" + divide);
-println("Positive:" + hey);
+//4.E
+address += ", 2720";
+sumOfNumbers += 100;
+division += 5;
+message += " sammen med sine forældre";
 
-wholeNumbers ++;
-divide ++;
-println("More numbers:" + wholeNumbers);
-println("Two Numbers:" + divide);
+println("Address: " + address);
+println("Sum: " + sumOfNumbers);
+println("Division: " + division);
+println("Gretting: " + message);
 
-wholeNumbers +=3;
-divide +=3;
+//4.f
+sumOfNumbers += 1; // sumOfNumbers = sumOfNumbers +1;
+division +=1;
 
-println("More numbers:" + wholeNumbers);
-println("Two Numbers:" + divide);
+println("Sum: " + sumOfNumbers);
+println("Division: " + division);
 
-wholeNumbers -=1;
-divide -=1;
+//4.g
+sumOfNumbers += 3;
+division +=3;
 
-println("More numbers:" + wholeNumbers);
-println("Two Numbers:" + divide);
+println("Sum: " + sumOfNumbers);
+println("Division: " + division);
+
+//4.h
+sumOfNumbers -= 1;
+division -=1;
+
+println("Sum: " + sumOfNumbers);
+println("Division: " + division);
 
 
 
@@ -52,9 +68,11 @@ println("Two Numbers:" + divide);
 
 
 
+
+
+}
 
 
 
 
   
-}
