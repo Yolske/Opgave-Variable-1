@@ -14,9 +14,8 @@ void setup(){
    ellipseMode(CORNER);
   
 }
+
 void draw(){
-  
- 
   x = circleSize*counter;
   y = circleSize*rowCounter;
  
