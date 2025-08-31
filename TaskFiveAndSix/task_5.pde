@@ -5,6 +5,13 @@ float y;
 int counter = 0;
 int rowCounter = 0;
 
+//6.a
+int red;
+int green;
+int blue;
+
+
+
 
 void setup(){
    size(400,400);
@@ -12,6 +19,11 @@ void setup(){
    numberOfCircles = 30;
    circleSize = width/numberOfCircles;
    ellipseMode(CORNER);
+   
+   //6.b
+   red = 255;
+   green = 255;
+   blue = 255;
   
 }
 
@@ -20,8 +32,13 @@ void draw(){
   y = circleSize*rowCounter;
  
  // Un-comment this line after completing step 6.a 
- // fill(red,green,blue);
+   red = counter == 0 ? (int)random(255) : red;
+   green = counter == 0 ? (int)random(255) : green;
+   blue = counter == 0 ? (int)random(255) : blue;
    
+   fill(red,green,blue);
+   
+  
    ellipse(x,y,circleSize,circleSize);
   
   // Explaining conditional assignments. 
@@ -37,4 +54,6 @@ void draw(){
   // 1 % 3 = 1 (3 people can't share 1 apple without cutting it, so 1 apple is left)
   // 2 % 3 = 2
   // 3 % 3 = 0
+  
+ 
 }
