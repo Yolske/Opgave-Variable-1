@@ -1,10 +1,11 @@
 
-String teacherName = Tess Løvgreen;
-int a = 365;
-String b = "København";
-boolean god = true;
-int c = 60*24;
-float d = 22.12;
-println("hej jeg hedder" + teacherName);
-booean dårlig = false;
-float e = 2.2 + 33;
+String teacherName = "Tess Løvgreen";
+int daysPassed = 365;
+String city = "København";
+boolean isCircle = true;
+int minutesInDay = 60*24;
+float price = 22.12;
+String greeting = "Hej, jeg heddder " + teacherName;
+boolean isSquare = false;
+float myHeight = 2.2 + 33;
+char firstLetter = 'S';
